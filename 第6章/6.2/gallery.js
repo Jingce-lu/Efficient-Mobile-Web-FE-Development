@@ -28,7 +28,7 @@
     $gallery.addEventListener("touchstart", function (e) {
         // 触摸开始时，记住当前手指的位置
         startOffsetX = e.changedTouches[0].pageX;
-        // 
+        // 手指滑动时禁止动画
         $gallery.classList.remove("animation");
     });
 
